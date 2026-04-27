@@ -1,7 +1,7 @@
 {
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npx expo-cli export:web",
-  "outputDirectory": "web-build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
